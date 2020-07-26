@@ -1,0 +1,27 @@
+/*
+* Neel Gondalia
+* README
+*/
+
+===============================
+	Assumptions/Limitations
+===============================
+
+- Anagrams are searched in data.txt file. In order to search a different text, modify the data.txt file
+- Intended to display the ability to implement algorithms. Therefore, not a strong emphasis on user interface.
+- I list the execution time for presorting at the top, and searching time for each search with the results. I do not consider the 
+  presorting time to be part of the final execution time. The reason being is that presorting is only done once, when you do end up searching for an anagram n times for 
+  n > 1, it will only presort once and search n times. Which is why presorting is a more efficient method than brute force as the search time for presorting technique is faster than brute force.
+- yes/no option is case sensitive in all programs, so make sure to enter 'no' or 'yes'. ONLY 'no' will terminate the program, any other
+  other string other than 'no' will continue the program
+
+===============================
+    Compiling and Running
+===============================
+
+*** Type 'make' to compile all questions
+*** Type 'make del' to remove all executibles from the bin folder
+
+-> To run anagram Bruteforce program, type: bin/Anagram_BruteForce
+
+-> To run anagram Bruteforce program, type: bin/Anagram_PreSorting
